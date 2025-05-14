@@ -11,7 +11,7 @@ set_determinism(123)
 import os
 from light_training.prediction import Predictor
 
-data_dir = "./data/fullres/train"
+data_dir = "/kaggle/working/TrainingData"
 env = "pytorch"
 max_epoch = 1000
 batch_size = 2
@@ -135,5 +135,3 @@ if __name__ == "__main__":
     trainer.validation_single_gpu(test_ds)
 
     # print(f"result is {v_mean}")
-
-
