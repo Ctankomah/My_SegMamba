@@ -79,6 +79,3 @@ if __name__ == "__main__":
     print(result.shape)
     print(result.mean(axis=0))
     print(result.std(axis=0))
-
-
-
